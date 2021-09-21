@@ -1,0 +1,13 @@
+{% extends 'base.html' %} {% block content %}
+<form method="POST" action="">
+  <br /><br />
+  <label for="c_id">Customer ID:</label>
+  <input type="text" id="c_id" name="c_id" /><br />
+  <br />
+  <input type="submit" value="get by id" />
+</form>
+<form method="POST" action="/getcustomer/getall">
+  <br />
+  <input type="submit" value="get all customers" />
+</form>
+{% endblock %}
