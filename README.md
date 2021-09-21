@@ -7,6 +7,7 @@ open index.py and assign app.config['MYSQL_PASSWORD'] =  to the password of your
 
 in terminal change the directory to the project location
 
+install pipenv if it is not installed using pip install pipenv or pip3 install pipenv
 install packages needed using the following command
 pipenv install --dev
 
